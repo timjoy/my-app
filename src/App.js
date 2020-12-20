@@ -27,7 +27,7 @@ this.setState({ denomInput: event.target.value });
 //};
 handleReduce = (prevState) => {
 this.setState((prevState) => ({
-rednumOut: this.state.denomInput / 2, reddenOut: this.state.denomInput / 2,
+rednumOut: this.state.numerInput / 2, reddenOut: this.state.denomInput / 2,
 //if(this.state.numerInput % 2 == 0){this.state.numerInput == this.state.numerInput /2}
 }));
 };
